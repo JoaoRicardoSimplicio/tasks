@@ -1,0 +1,47 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+
+# Django migrations
+**/migrations/*
+!**/migrations/__init__.py
+
+# Static files
+staticfiles/
+*.log
+
+# Database files
+*.sqlite3
+db.sqlite3
+
+# Media files
+media/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+
+# Senv sensitive information
+*.env
+
+# coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# pytest
+.pytest_cache/
