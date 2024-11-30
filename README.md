@@ -4,9 +4,9 @@
 
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Running tests](#testing)
 - [Running the project](#running)
 - [Api Endpoints](#endpoints)
+- [Running tests](#testing)
 
 ## Prerequisites
 
@@ -31,13 +31,6 @@ source env/bin/activate
 3. **Install dependencies**:
 ```bash
 pip install -r requirements.txt
-```
-
-## Testing
-
-1. **Run tests**:
-```bash
-python3 manage.py test
 ```
 
 ## Running
@@ -88,3 +81,10 @@ Example where the field `title` must be updated.
 - Endpoint `/tasks/<id>/complete`
 - Methods:
     - `POST` Set the given task as done.
+
+## Testing
+
+1. **Run tests**:
+```bash
+python3 manage.py test
+```
