@@ -1,3 +1,5 @@
+from typing import Optional
+
 from django.core.exceptions import ObjectDoesNotExist
 from django.db import models
 
@@ -11,7 +13,7 @@ class Task(models.Model):
     status = models.CharField(blank=False, max_length=15, choices=TaskStatus, default="Todo")
 
     @classmethod
-    def get_or_none(cls, pk: int):
+    def get_or_none(cls, pk: int) -> Optional['Task']:
         try:
             return Task.objects.get(id=pk)
         except ObjectDoesNotExist:

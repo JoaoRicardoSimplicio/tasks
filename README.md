@@ -4,6 +4,7 @@
 
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
+- [Running tests](#testing)
 - [Running the project](#running)
 - [Api Endpoints](#endpoints)
 
@@ -30,6 +31,13 @@ source env/bin/activate
 3. **Install dependencies**:
 ```bash
 pip install -r requirements.txt
+```
+
+## Testing
+
+1. **Run tests**:
+```bash
+python3 manage.py test
 ```
 
 ## Running
